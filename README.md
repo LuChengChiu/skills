@@ -13,6 +13,7 @@ Skills are reusable prompt modules that extend Claude Code's capabilities for sp
 | [fetch-job-description](skills/fetch-job-description/SKILL.md) | Extract structured job data from 104.com.tw or Cake.me job posting URLs |
 | [commit-msg](skills/commit-msg/SKILL.md) | Generate a Conventional Commits message from staged or unstaged repository changes |
 | [analyze-bug](skills/analyze-bug/SKILL.md) | Investigate a bug to its root cause and write a diagnosis report with solution proposals to `docs/bugs/` |
+| [jira-bug-analyze](skills/jira-bug-analyze/SKILL.md) | Read a Jira ticket via the Atlassian MCP, distill it into a bug payload, and hand off to `analyze-bug` (user-invoked: `/jira-bug-analyze <url>`) |
 
 ## Structure
 
