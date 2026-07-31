@@ -14,6 +14,7 @@ Skills are reusable prompt modules that extend Claude Code's capabilities for sp
 | [commit-msg](skills/commit-msg/SKILL.md) | Generate a Conventional Commits message from staged or unstaged repository changes |
 | [analyze-bug](skills/analyze-bug/SKILL.md) | Investigate a bug to its root cause and write a diagnosis report with solution proposals to `docs/bugs/` |
 | [jira-bug-analyze](skills/jira-bug-analyze/SKILL.md) | Read a Jira ticket via the Atlassian MCP, distill it into a bug payload, and hand off to `analyze-bug` (user-invoked: `/jira-bug-analyze <url>`) |
+| [improve-skill](skills/improve-skill/SKILL.md) | Turn this session's feedback about a skill into an edit to that skill's `SKILL.md` (user-invoked: `/improve-skill <skill-name>`) |
 
 ## Structure
 
